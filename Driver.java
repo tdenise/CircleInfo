@@ -7,10 +7,14 @@ public class Driver {
 		System.out.println("Input the radius of the circle: ");
 		double rad1 = input.nextDouble();
 		
+		CircleInfo circle = new CircleInfo(rad1);
 		
+		displayCircleInfo(circle);
+		
+				
 	}
 	
-	public void displayCircleInfo() {
-		System.out.printf("The radius is: %.2d ", );
+	public static void displayCircleInfo(CircleInfo circle) {
+		System.out.printf("The radius is: %.2d ", circle.getRadius);
 	}
 }

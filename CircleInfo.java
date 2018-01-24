@@ -11,8 +11,8 @@ public class CircleInfo {
 		radius = 0.0;
 	}
 	
-	public void setRadius() {
-		
+	public void setRadius(double radius) {
+		radius = this.radius;
 	}
 	
 	public double getRadius() {
